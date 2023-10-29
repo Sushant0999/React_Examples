@@ -16,7 +16,7 @@ function MyTextarea({ text, onTextChange }) {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-      <h1>Url</h1>
+      <h1>Enter Url</h1>
       <textarea
         value={text}
         onChange={handleTextChange}
